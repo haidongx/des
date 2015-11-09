@@ -76,7 +76,7 @@ public class DESSystemTest {
         public void externalTransit(Message message) throws Exception
         {
             this.ballNumber++;
-            System.out.println(this.name + " got a Ball at " + this.getTime());
+            System.out.println(this.name + " gets a ball at " + this.getTime());
         }
 
         @Override
