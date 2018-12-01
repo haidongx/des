@@ -3,7 +3,7 @@
 This package is an implementation of Discrete Event Simulation (DES) Framework that was the basis of many projects of Haidong Xue's PhD work at Georgia State University.
 
 It is different from [DEVS](https://en.wikipedia.org/wiki/DEVS) majorly in the following aspects:
-* it does not require atomic models' having states or state transition functions predefined
+* it does not require atomic models' having states or state transition functions on all states predefined
 * external transition has no advanced time as an input
 
 Transition functions only requires
