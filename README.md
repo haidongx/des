@@ -2,7 +2,7 @@
 
 This package is an implementation of Discrete Event Simulation (DES) Framework that was the basis of many projects of Haidong Xue's PhD work at Georgia State University.
 
-It is different from [DEVS]:https://en.wikipedia.org/wiki/DEVS majorly in the following aspects:
+It is different from [DEVS](https://en.wikipedia.org/wiki/DEVS) majorly in the following aspects:
 * it does not require atomic models' having states or state transition functions predefined
 * external transition has no advanced time as an input
 
@@ -16,7 +16,7 @@ It then largely simplies the modeling on complex continuous atomic models compar
 
 ## With Maven
 1. Clone it to local
-2. Run [Maven install]:https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html to install it to local Maven repo. If you are using IntelliJ, just run the buildin Maven install tool.
+2. Run [Maven install](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html) to install it to local Maven repo. If you are using IntelliJ, just run the buildin Maven install tool.
 3. In dependent projects' POM, add a dependency
 ```xml
 <dependency>
@@ -30,5 +30,5 @@ It then largely simplies the modeling on complex continuous atomic models compar
 2. Add the jar file as a dependency libirary of your project.
 
 ## Other methods
-Any other methods to add third party lib will work, e.g. methods mentioned [here]:http://blog.javafortesters.com/2017/10/maven-local-dependencies.html
+Any other methods to add third party lib will work, e.g. methods mentioned [here](http://blog.javafortesters.com/2017/10/maven-local-dependencies.html)
 
