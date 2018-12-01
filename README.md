@@ -10,7 +10,7 @@ Transition functions only requires
 * internal transition function on time int_transition(time)
 * external transition function on messages ext_transition(message)
 
-It then largely simplies the modeling on complex continuous atomic models compared with DEVS.
+It then simplies the modeling on complex continuous atomic models compared with DEVS.
 
 # Usage and installation
 
