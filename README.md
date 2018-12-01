@@ -1,16 +1,16 @@
 # About this package
 
-This package is an implementation of Discrete Event Simulation (DES) Framework that was the basis of many projects of Haidong Xue's PhD work at Georgia State University.
+This package is an implementation of Discrete Event Simulation (DES) Framework that was the basis of many projects of Haidong Xue's PhD research at Georgia State University.
 
 It is different from [DEVS](https://en.wikipedia.org/wiki/DEVS) majorly in the following aspects:
-* it does not require atomic models' having states or state transition functions on all states predefined
-* external transition has no advanced time as an input
+* it does not assume atomic models are fully descrete (i.e. having states or state transition functions on all states predefined), and it accepts complex continuous atomic models,
+* external transition has no advanced time as an input.
 
 Transition functions only requires
 * internal transition function on time int_transition(time)
 * external transition function on messages ext_transition(message)
 
-It then simplies the modeling on complex continuous atomic models compared with DEVS.
+It then simplies modeling on complex continuous atomic models that are usually hard (if possible) when using DEVS.
 
 # Usage and installation
 
@@ -31,4 +31,7 @@ It then simplies the modeling on complex continuous atomic models compared with 
 
 ## Other methods
 Any other methods to add third party lib will work, e.g. methods mentioned [here](http://blog.javafortesters.com/2017/10/maven-local-dependencies.html)
+
+# More questions?
+Contact [Xiaolin Hu](https://grid.cs.gsu.edu/~cscxlh/) or me.
 
